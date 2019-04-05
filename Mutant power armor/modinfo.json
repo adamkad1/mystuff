@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "Mutant_Power_Armor",
+    "name": "Mutant power armor",
+    "authors": [ "Triel"],
+    "description": "Dont like sacrificing power armor capability for mutations? Like unbalanced stuff? Then this is for you!",
+    "category": "Content",
+    "dependencies": [ "dda" ]
+  }
+]
