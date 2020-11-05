@@ -1,0 +1,18 @@
+Root level exception in OnGUI(): System.MissingFieldException: Field 'AlienRace.RaceRestrictionSettings.apparelList' not found.
+  at Verse.ThingWithComps+<GetFloatMenuOptions>d__40.MoveNext () [0x00102] in <d72310b4d8f64d25aee502792b58549f>:0 
+  at (wrapper dynamic-method) RimWorld.FloatMenuMakerMap.RimWorld.FloatMenuMakerMap.AddHumanlikeOrders_Patch14(UnityEngine.Vector3,Verse.Pawn,System.Collections.Generic.List`1<Verse.FloatMenuOption>)
+  at (wrapper dynamic-method) RimWorld.FloatMenuMakerMap.RimWorld.FloatMenuMakerMap.ChoicesAtFor_Patch8(UnityEngine.Vector3,Verse.Pawn)
+  at AchtungMod.MultiActions.AddColonist (AchtungMod.Colonist colonist) [0x0001f] in <2d88ed37a5f046c89440c10105b7f8de>:0 
+  at AchtungMod.MultiActions.<.ctor>b__3_0 (AchtungMod.Colonist colonist) [0x00000] in <2d88ed37a5f046c89440c10105b7f8de>:0 
+  at AchtungMod.Tools.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <2d88ed37a5f046c89440c10105b7f8de>:0 
+  at AchtungMod.MultiActions..ctor (System.Collections.Generic.IEnumerable`1[T] colonists, UnityEngine.Vector3 clickPos) [0x00018] in <2d88ed37a5f046c89440c10105b7f8de>:0 
+  at AchtungMod.Controller.MouseDown (UnityEngine.Vector3 pos) [0x00076] in <2d88ed37a5f046c89440c10105b7f8de>:0 
+  at AchtungMod.Controller.HandleEvents () [0x0002f] in <2d88ed37a5f046c89440c10105b7f8de>:0 
+  at AchtungMod.Selector_HandleMapClicks_Patch.Prefix () [0x00005] in <2d88ed37a5f046c89440c10105b7f8de>:0 
+  at (wrapper dynamic-method) RimWorld.Selector.RimWorld.Selector.HandleMapClicks_Patch2(RimWorld.Selector)
+  at RimWorld.Selector.SelectorOnGUI () [0x00000] in <d72310b4d8f64d25aee502792b58549f>:0 
+  at RimWorld.MapInterface.HandleLowPriorityInput () [0x0000f] in <d72310b4d8f64d25aee502792b58549f>:0 
+  at (wrapper dynamic-method) RimWorld.UIRoot_Play.RimWorld.UIRoot_Play.UIRootOnGUI_Patch1(RimWorld.UIRoot_Play)
+  at (wrapper dynamic-method) Verse.Root.Verse.Root.OnGUI_Patch1(Verse.Root)
+Verse.Log:Error(String, Boolean)
+Verse.Root:Verse.Root.OnGUI_Patch1(Root)
